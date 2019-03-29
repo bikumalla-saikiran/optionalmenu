@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.saikiran.optionalmenu.MainActivity">
+    <item
+        android:id="@+id/update"
+        android:orderInCategory="102"
+        android:title="update" />
+    <item
+        android:id="@+id/delte"
+        android:orderInCategory="101"
+        android:title="delete" />
+    <item
+        android:id="@+id/edit"
+        android:orderInCategory="100"
+        android:title="edit" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="103"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
